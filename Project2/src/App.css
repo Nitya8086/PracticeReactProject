@@ -9,7 +9,13 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-nav{
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.main_container{
   display: flex;
-  justify-content: space-between;
+  height:calc(100vh-72px);
+  flex-direction: column;
+  justify-content: end;
 }
