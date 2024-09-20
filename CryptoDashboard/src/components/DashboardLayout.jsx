@@ -17,9 +17,10 @@ const DashboardLayout = ({ title, children }) => {
       <Box flexGrow={1}>
         <Topnav title={title} onOpen={onOpen} />
         <Container
+        mt="6"
           px="4"
           maxW="60rem"
-          bg="green"
+      
         >
           {children}
         </Container>

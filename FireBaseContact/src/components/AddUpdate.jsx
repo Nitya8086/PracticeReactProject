@@ -68,6 +68,11 @@ const AddUpdate = ({ isOpen, onClose, isUpdate, contact }) => {
               <div className=" text-xs text-red-500">
                 <ErrorMessage name="email" />
               </div>
+              <label htmlFor="name">Phone no</label>
+              <Field name="number" className="h-10 border" />
+              <div className=" text-xs text-red-500">
+                <ErrorMessage name="number" />
+              </div>
             </div>
 
             <button className="self-end border bg-orange px-3 py-1.5">

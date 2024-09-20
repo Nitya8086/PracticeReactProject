@@ -18,7 +18,7 @@ const Sidenavx = () => {
     },
   ];
   return (
-    <Stack justify="space-between" boxShadow="lg" w="16rem" h="100vh"
+    <Stack bg="white" justify="space-between" boxShadow="lg" w="16rem" h="100vh"
 
     display={{
       base:"none",

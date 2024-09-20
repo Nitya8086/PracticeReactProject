@@ -1,0 +1,31 @@
+/* src/App.css */
+body{
+  background-color: rgb(240, 238, 238);
+}
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+
+}
+
+.header button {
+  background: #b6b4b4;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.header .dropdown {
+  font-size: 20px;
+}
+
+.content {
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+}
